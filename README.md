@@ -59,3 +59,6 @@ frontend/
  - ![Home page](https://github.com/Dharaneesh-23/Clinic-website/blob/main/images/home%20page.png)
  - ![Appointment page](https://github.com/Dharaneesh-23/Clinic-website/blob/main/images/Booking%20page.png)
  - ![Service page](https://github.com/Dharaneesh-23/Clinic-website/blob/main/images/services%20page.png)
+
+## Backend
+The backend for this project is currently under development using Django and PostgreSQL.
