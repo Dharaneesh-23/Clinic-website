@@ -14,11 +14,11 @@ npm start
 This will install the project's dependencies and start the development server. The website should then be accessible at http://localhost:3000/ in your web browser.
 
 ## Project Structure
-frontend/
-│
-├── node_modules/
-│
-├── public/
+frontend/_
+│_
+├── node_modules/_
+│_
+├── public/_
 │   ├── index.html
 │   ├── favicon.ico
 │   └── logo.png
