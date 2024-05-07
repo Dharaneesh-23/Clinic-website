@@ -6,7 +6,7 @@
 To clone and run this project, you'll need to have Node.js and npm (or yarn) installed on your machine. Once you have those installed, you can clone this repository and run the following commands:
 
 ```bash
-git clone [https://github.com/](https://github.com/Dharaneesh-23/Clinic-website.git)
+git clone https://github.com/Dharaneesh-23/Clinic-website.git
 cd clinic-website-frontend
 npm install
 npm start
