@@ -14,11 +14,13 @@ npm start
 This will install the project's dependencies and start the development server. The website should then be accessible at http://localhost:3000/ in your web browser.
 
 ## Project Structure
-frontend/_
-│_
-├── node_modules/_
-│_
-├── public/_
+
+```
+frontend/
+│
+├── node_modules/
+│
+├── public/
 │   ├── index.html
 │   ├── favicon.ico
 │   └── logo.png
@@ -42,6 +44,7 @@ frontend/_
 ├── package-lock.json
 ├── README.md
 └── tailwind.config.js
+```
 
 
 ## Dependencies
