@@ -7,7 +7,7 @@ To clone and run this project, you'll need to have Node.js and npm (or yarn) ins
 
 ```bash
 git clone https://github.com/Dharaneesh-23/Clinic-website.git
-cd clinic-website-frontend
+cd clinic-website
 npm install
 npm start
 ```
