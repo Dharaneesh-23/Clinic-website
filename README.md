@@ -61,4 +61,56 @@ frontend/
  - ![Service page](https://github.com/Dharaneesh-23/Clinic-website/blob/main/images/services%20page.png)
 
 ## Backend
+## Overview
+ Aramm Backend is a Django-based API project designed to manage patients, administrators, and packages. The project includes endpoints for creating, listing, and deleting patients and administrators, as well as creating, listing, deleting, and updating packages. This utilizes PostgreSQL for the Database.
+
+## Project Structure
+```
+aramm_backend/
+│
+├── api/
+│   ├── __pycache__/
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── aramm_backend/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── media/
+│
+├── manage.py
+└── requirements.txt
+```
+## Setup and Installation
+- Clone the repository:
+  ```
+  git clone https://github.com/yourusername/aramm_backend.git
+  cd aramm_backend
+- Create and activate a virtual environment:
+  ```
+  python3 -m venv env
+  source env/bin/activate
+
+- Install the required dependencies:
+  ```
+  pip install -r requirements.txt
+
+- Run database migrations:
+  ```
+  python manage.py migrate
+
+
+
 The backend for this project is currently under development using Django and PostgreSQL.
