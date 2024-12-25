@@ -1,0 +1,28 @@
+<!-- thank-you.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="testimonial-home">
+        <div class="thank-you-container">
+          <h2>Thank You for Your Feedback!</h2>
+          <p>Your feedback has been successfully submitted.</p>
+          
+          <!-- Go Back Button -->
+          <button id="go-back-btn">Go Back to Home</button>
+        </div>
+    </div>
+
+  <script>
+    // Go back to the feedback form and clear the form fields
+    document.getElementById('go-back-btn').addEventListener('click', () => {
+      window.location.href = 'index.html'; // Redirect back to the home page (feedback form)
+    });
+  </script>
+</body>
+</html>
